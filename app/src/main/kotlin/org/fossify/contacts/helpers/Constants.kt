@@ -63,15 +63,16 @@ const val THREEMA = "threema"
 // 6 am is the hardcoded automatic backup time, intervals shorter than 1 day are not yet supported.
 fun getNextAutoBackupTime(): DateTime {
     val now = DateTime.now()
-    val sixHour = now.withHourOfDay(6)
-    return if (now.millis < sixHour.millis) {
-        sixHour
-    } else {
-        sixHour.plusDays(AUTO_BACKUP_INTERVAL_IN_DAYS)
-    }
+    val sixHour = now.plusMinutes(2)
+    return sixHour
+    // return if (now.millis < sixHour.millis) {
+    //     sixHour
+    // } else {
+    //     sixHour.plusDays(AUTO_BACKUP_INTERVAL_IN_DAYS)
+    // }
 }
 
 fun getPreviousAutoBackupTime(): DateTime {
     val nextBackupTime = getNextAutoBackupTime()
-    return nextBackupTime.minusDays(AUTO_BACKUP_INTERVAL_IN_DAYS)
+    return nextBackupTime.minusMinutes(2)
 }
