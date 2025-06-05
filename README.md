@@ -1,6 +1,6 @@
 # Fork of [FossifyOrg/Contacts](https://github.com/FossifyOrg/Contacts)
 
--   Aim was to make Automatic Backup option [FossifyOrg/Contacts](https://github.com/FossifyOrg/Contacts) app work in my old android 10 phone.
+-   Aim was to make Automatic Backup option in [FossifyOrg/Contacts](https://github.com/FossifyOrg/Contacts) app work in my old android 10 phone.
 
 # publish a build of [my fork](https://github.com/RabbitRun47/FossifyOrg-Commons) of [FossifyOrg/commons](https://github.com/FossifyOrg/commons)
 
