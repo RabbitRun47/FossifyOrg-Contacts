@@ -2,6 +2,10 @@
 
 -   Aim was to make Automatic Backup option [FossifyOrg/Contacts](https://github.com/FossifyOrg/Contacts) app work in my old android 10 phone.
 
+# publish a build of [my fork](https://github.com/RabbitRun47/FossifyOrg-Commons) of [FossifyOrg/commons](https://github.com/FossifyOrg/commons)
+
+1. check the [README.md](https://github.com/RabbitRun47/FossifyOrg-Commons)
+
 # create and install apk from local
 
 1. generate signing key
