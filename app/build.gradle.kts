@@ -125,11 +125,12 @@ detekt {
 }
 
 dependencies {
-    implementation(libs.fossify.commons)
+    // implementation(libs.fossify.commons)
     implementation(libs.androidx.swiperefreshlayout)
     implementation(libs.autofittextview)
     implementation(libs.ezvcard)
     implementation(libs.indicatorfastscroll)
     implementation(libs.bundles.room)
     ksp(libs.androidx.room.compiler)
+    implementation("org.fossify:commons:1.0.0")
 }
